@@ -1,0 +1,48 @@
+<label class="error-message">{{ errMessage }}</label>
+
+
+<mat-form-field> 
+  <input [(ngModel)]="note.noteTitle" name="editTitle" matInput placeholder="Title" type="text">
+</mat-form-field><br>
+<mat-form-field>
+  <textarea [(ngModel)]="note.noteContent" name="editText" matInput placeholder="Text"></textarea>
+</mat-form-field><br>
+<mat-form-field>
+  <mat-select [(ngModel)]="note.noteStatus" name="noteStatus" placeholder="Select status" >
+    <mat-option *ngFor="let state of status" [value]="state">
+      {{ state }}
+    </mat-option>
+  </mat-select>
+</mat-form-field><br>
+<!-- <mat-form-field>
+  <mat-select placeholder="Reminder" [(ngModel)]="selectedReminders" multiple>
+    <mat-option *ngFor="let reminder of reminders" [value]="reminder.reminderId">{{reminder.reminderName}}</mat-option>
+  </mat-select>
+</mat-form-field> -->
+
+<div class="keep-c-done-wrapper">
+  <button mat-button (click)="onSave()">Save</button>
+</div>
+
+
+
+<!-- Label to display any error messages -->
+<!-- <label class="error-message">{{ errMessage }}</label>
+
+
+<mat-form-field> 
+  <input [(ngModel)]="note.noteTitle" name="noteTitle" matInput placeholder="noteTitle" type="text">
+</mat-form-field>
+<mat-form-field>
+  <textarea [(ngModel)]="note.noteContent" name="editText" matInput placeholder="editText"></textarea>
+</mat-form-field>
+<mat-form-field>
+<mat-select name="editStatus" placeholder="Select state" [(ngModel)]="note.noteStatus">
+  <mat-option *ngFor="let noteStatus of states" [value]="noteStatus">
+    {{ noteStatus }}
+  </mat-option>
+</mat-select>
+</mat-form-field>
+<div class="keep-c-done-wrapper">
+  <button mat-button (click)="onSave()">Save</button>
+</div> -->

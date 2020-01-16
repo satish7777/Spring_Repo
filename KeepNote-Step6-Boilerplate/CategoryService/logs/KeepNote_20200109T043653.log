@@ -1,0 +1,418 @@
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.keepnote.test.repository.CategoryRepositoryTest], using SpringBootContextLoader
+2020-01-09 04:36:53 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.keepnote.test.repository.CategoryRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-09 04:36:53 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.keepnote.test.repository.CategoryRepositoryTest]: CategoryRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.keepnote.CategoryServiceApplication for test class com.stackroute.keepnote.test.repository.CategoryRepositoryTest
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4f18837a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@359f7cdf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f6ee6e4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4466af20, org.springframework.test.context.transaction.TransactionalTestExecutionListener@a514af7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6b927fb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e58a80e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4fb61f4a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4fb0f2b9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@79924b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7b9a4292]
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.keepnote.test.controller.CategoryControllerTest], using SpringBootContextLoader
+2020-01-09 04:36:53 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.keepnote.test.controller.CategoryControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-09 04:36:53 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.keepnote.test.controller.CategoryControllerTest]: CategoryControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.keepnote.CategoryServiceApplication for test class com.stackroute.keepnote.test.controller.CategoryControllerTest
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@34123d65, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@59474f18, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@65fb9ffc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e694b3f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1bb5a082, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78691363, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41d477ed, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3590fc5b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@397fbdb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@33d512c1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@515c6049, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@639c2c1d]
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.keepnote.test.log.LoggerTest], using SpringBootContextLoader
+2020-01-09 04:36:53 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.keepnote.test.log.LoggerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-09 04:36:53 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.keepnote.test.log.LoggerTest]: LoggerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-09 04:36:53 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.keepnote.CategoryServiceApplication for test class com.stackroute.keepnote.test.log.LoggerTest
+2020-01-09 04:36:54 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-01-09 04:36:54 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47987356, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22ef9844, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6283d8b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3b6ddd1d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3f6b0be5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@611889f4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1da2cb77, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@48f278eb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2f217633, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@a530d0a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a18644, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5acf93bb]
+2020-01-09 04:36:55 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				Starting CategoryRepositoryTest on ip-172-31-80-91 with PID 6018 (started by ubuntu in /home/ubuntu/Desktop/Began/Spring_Workspace/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-09 04:36:55 [main] DEBUG c.s.k.t.r.CategoryRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 04:36:55 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 04:36:55 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fff253c: startup date [Thu Jan 09 04:36:55 UTC 2020]; root of context hierarchy
+2020-01-09 04:36:56 [main] INFO  d.f.e.process.runtime.ProcessControl -
+				stopOrDestroyProcess: process hasn't exited 
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				note: noprealloc may hurt performance in many applications
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten] MongoDB starting : pid=6043 port=42309 dbpath=/tmp/embedmongo-db-fc441e67-fcfe-4535-aead-a2ae5da43381 64-bit host=ip-172-31-80-91
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten] db version v3.2.2
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten] modules: none
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten] build environment:
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.559+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 42309 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-fc441e67-fcfe-4535-aead-a2ae5da43381", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.584+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.643+0000 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.644+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-fc441e67-fcfe-4535-aead-a2ae5da43381/diagnostic.data'
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.645+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2020-01-09 04:36:56 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:56.665+0000 I NETWORK  [initandlisten] waiting for connections on port 42309
+2020-01-09 04:36:56 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@5177e388
+2020-01-09 04:36:57 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:42309], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-09 04:36:57 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:42309 to client view of cluster
+2020-01-09 04:36:57 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:57.064+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59980 #1 (1 connection now open)
+2020-01-09 04:36:57 [cluster-ClusterId{value='5e16ade924cf0b1782b1750c', description='null'}-localhost:42309] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:42309
+2020-01-09 04:36:57 [cluster-ClusterId{value='5e16ade924cf0b1782b1750c', description='null'}-localhost:42309] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:42309, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=983554}
+2020-01-09 04:36:57 [cluster-ClusterId{value='5e16ade924cf0b1782b1750c', description='null'}-localhost:42309] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2020-01-09 04:36:57 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				Started CategoryRepositoryTest in 2.637 seconds (JVM running for 4.665)
+2020-01-09 04:36:57 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:36:57.568+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59982 #2 (2 connections now open)
+2020-01-09 04:36:57 [main] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:42309
+2020-01-09 04:36:57 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				Starting CategoryControllerTest on ip-172-31-80-91 with PID 6018 (started by ubuntu in /home/ubuntu/Desktop/Began/Spring_Workspace/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-09 04:36:57 [main] DEBUG c.s.k.t.c.CategoryControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 04:36:57 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 04:36:57 [main] INFO  o.s.w.c.s.GenericWebApplicationContext -
+				Refreshing org.springframework.web.context.support.GenericWebApplicationContext@697a34af: startup date [Thu Jan 09 04:36:57 UTC 2020]; root of context hierarchy
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@697a34af: startup date [Thu Jan 09 04:36:57 UTC 2020]; root of context hierarchy
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:36:58 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:36:59 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 13 ms
+2020-01-09 04:36:59 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				Started CategoryControllerTest in 1.26 seconds (JVM running for 6.205)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@691500ab
+2020-01-09 04:36:59 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 2 ms
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4ea17147
+2020-01-09 04:36:59 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@72b0a004
+2020-01-09 04:36:59 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4e375bba
+2020-01-09 04:36:59 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@51c65a43
+2020-01-09 04:36:59 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@541bf968
+2020-01-09 04:36:59 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@1cbc1dde
+2020-01-09 04:36:59 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:36:59 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2c604965
+2020-01-09 04:36:59 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:36:59 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:36:59 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-80-91 with PID 6018 (started by ubuntu in /home/ubuntu/Desktop/Began/Spring_Workspace/KeepNote-Step6-Boilerplate/CategoryService)
+2020-01-09 04:36:59 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 04:36:59 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 04:36:59 [main] INFO  o.s.w.c.s.GenericWebApplicationContext -
+				Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b033eac: startup date [Thu Jan 09 04:36:59 UTC 2020]; root of context hierarchy
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				note: noprealloc may hurt performance in many applications
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten] MongoDB starting : pid=6062 port=43097 dbpath=/tmp/embedmongo-db-fb2a62a4-b2de-4eb3-9d8e-dec8634fc00a 64-bit host=ip-172-31-80-91
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten] db version v3.2.2
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten] modules: none
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten] build environment:
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.733+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 43097 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-fb2a62a4-b2de-4eb3-9d8e-dec8634fc00a", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.759+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.817+0000 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.822+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-fb2a62a4-b2de-4eb3-9d8e-dec8634fc00a/diagnostic.data'
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.823+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.844+0000 I NETWORK  [initandlisten] waiting for connections on port 43097
+2020-01-09 04:37:00 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@145e958f
+2020-01-09 04:37:00 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:43097], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-09 04:37:00 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:43097 to client view of cluster
+2020-01-09 04:37:00 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:00.857+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:39744 #1 (1 connection now open)
+2020-01-09 04:37:00 [cluster-ClusterId{value='5e16adec24cf0b1782b1750d', description='null'}-localhost:43097] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:3, serverValue:1}] to localhost:43097
+2020-01-09 04:37:00 [cluster-ClusterId{value='5e16adec24cf0b1782b1750d', description='null'}-localhost:43097] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:43097, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=313689}
+2020-01-09 04:37:00 [cluster-ClusterId{value='5e16adec24cf0b1782b1750d', description='null'}-localhost:43097] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.updateCategory(java.lang.String,com.stackroute.keepnote.model.Category)
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.getCategoryById(java.lang.String)
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.createCategory(com.stackroute.keepnote.model.Category)
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.CategoryController.deleteCategory(java.lang.String)
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-09 04:37:01 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-09 04:37:01 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-09 04:37:02 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:37:02 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4b033eac: startup date [Thu Jan 09 04:36:59 UTC 2020]; root of context hierarchy
+2020-01-09 04:37:02 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:37:02 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:37:02 [main] INFO  o.s.c.s.DefaultLifecycleProcessor -
+				Starting beans in phase 2147483647
+2020-01-09 04:37:02 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2020-01-09 04:37:02 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2020-01-09 04:37:02 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2020-01-09 04:37:02 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 3.372 seconds (JVM running for 10.021)
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.873+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:59986 #3 (3 connections now open)
+2020-01-09 04:37:02 [Thread-8] INFO  o.s.w.c.s.GenericWebApplicationContext -
+				Closing org.springframework.web.context.support.GenericWebApplicationContext@697a34af: startup date [Thu Jan 09 04:36:57 UTC 2020]; root of context hierarchy
+2020-01-09 04:37:02 [Thread-6] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fff253c: startup date [Thu Jan 09 04:36:55 UTC 2020]; root of context hierarchy
+2020-01-09 04:37:02 [Thread-13] INFO  o.s.w.c.s.GenericWebApplicationContext -
+				Closing org.springframework.web.context.support.GenericWebApplicationContext@4b033eac: startup date [Thu Jan 09 04:36:59 UTC 2020]; root of context hierarchy
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.881+0000 I COMMAND  [conn3] terminating, shutdown command received
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.882+0000 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.883+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:39748 #2 (2 connections now open)
+2020-01-09 04:37:02 [Thread-6] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:42309 because the pool has been closed.
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.887+0000 I CONTROL  [conn3] now exiting
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.888+0000 I NETWORK  [conn3] shutdown: going to close listening sockets...
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.889+0000 I NETWORK  [conn3] closing listening socket: 5
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.889+0000 I NETWORK  [conn3] closing listening socket: 6
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.889+0000 I NETWORK  [conn3] removing socket file: /tmp/mongodb-42309.sock
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.889+0000 I NETWORK  [conn3] shutdown: going to flush diaglog...
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.889+0000 I NETWORK  [conn3] shutdown: going to close sockets...
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.889+0000 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+2020-01-09 04:37:02 [Thread-13] INFO  o.s.c.s.DefaultLifecycleProcessor -
+				Stopping beans in phase 2147483647
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.897+0000 I COMMAND  [conn2] terminating, shutdown command received
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.897+0000 I FTDC     [conn2] Shutting down full-time diagnostic data capture
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I CONTROL  [conn2] now exiting
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I NETWORK  [conn2] shutdown: going to close listening sockets...
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I NETWORK  [conn2] closing listening socket: 5
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I NETWORK  [conn2] closing listening socket: 6
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I NETWORK  [conn2] removing socket file: /tmp/mongodb-43097.sock
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I NETWORK  [conn2] shutdown: going to flush diaglog...
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I NETWORK  [conn2] shutdown: going to close sockets...
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I STORAGE  [conn2] WiredTigerKVEngine shutting down
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.906+0000 I NETWORK  [conn1] end connection 127.0.0.1:39744 (1 connection now open)
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.897+0000 I NETWORK  [conn2] end connection 127.0.0.1:59982 (2 connections now open)
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.898+0000 I NETWORK  [conn1] end connection 127.0.0.1:59980 (2 connections now open)
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.915+0000 I STORAGE  [conn3] shutdown: removing fs lock...
+2020-01-09 04:37:02 [Thread-4] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.915+0000 I CONTROL  [conn3] dbexit:  rc: 0
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.921+0000 I STORAGE  [conn2] shutdown: removing fs lock...
+2020-01-09 04:37:02 [Thread-11] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:37:02.921+0000 I CONTROL  [conn2] dbexit:  rc: 0

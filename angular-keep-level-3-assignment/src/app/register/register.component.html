@@ -1,0 +1,65 @@
+
+<div class="signup-form-container">
+  
+  <h2> User Registration Form </h2>
+  
+  <form class="signup-form" #signUpForm="ngForm" (ngSubmit)="signUpUser(signUpForm)">
+     <table calss="table_clsss">
+       <tr>
+      <div class="form-group">
+       <td> <label for="inputUserId">UserId</label></td>
+      <td> <input type="text" class="form-control" id="inputUserId" [(ngModel)]="user.userId" name="userId" aria-describedby="userIdHelp" placeholder="Enter User ID" required minlength="6" #userId="ngModel"></td> 
+        <small *ngIf="userId?.touched && userId.errors?.required" class="validation-error">UserId is Required</small>
+        <small *ngIf="userId?.touched && userId.errors?.minlength" class="validation-error">UserId must be min 6 characters</small>
+      </div>
+    </tr><tr>
+   
+      <div class="form-group">
+          <td>  <label for="inputPassword">Password</label></td>
+            <td>   <input type="password" class="form-control" id="inputPassword" name="userPassword" placeholder="Enter Password" [(ngModel)]="user.userPassword" required minlength="6" #userPassword="ngModel"></td>
+        <small *ngIf="userPassword?.touched && userPassword.errors?.required" class="validation-error">Password is Required</small>
+        <small *ngIf="userPassword?.touched && userPassword.errors?.minlength" class="validation-error">Password must be min 6 characters</small>
+      </div>
+    </tr><tr>
+      <div class="form-group">
+        <td>   <label for="inputFirstname">FirstName</label></td>
+        <td>  <input type="text" class="form-control" id="inputFirstname" [(ngModel)]="user.firstName" name="firstName" aria-describedby="firstNameHelp" placeholder="Enter First Name" required minlength="3" #firstName="ngModel"></td>
+        <small *ngIf="firstName?.touched && firstName.errors?.required" class="validation-error">firstName is Required</small>
+        <small *ngIf="firstName?.touched && firstName.errors?.minlength" class="validation-error">firstName must be min 3 characters</small>
+      </div>
+    </tr><tr>
+      <div class="form-group">
+          <td>  <label for="inputLastname">LastName</label></td>
+            <td>  <input type="text" class="form-control" id="inputLastname" [(ngModel)]="user.lastName" name="lastName" aria-describedby="lastNameHelp" placeholder="Enter Last Name" required minlength="3" #lastName="ngModel"></td>
+        <small *ngIf="lastName?.touched && lastName.errors?.required" class="validation-error">lastName is Required</small>
+        <small *ngIf="lastName?.touched && lastName.errors?.minlength" class="validation-error">lastName must be min 3 characters</small>
+      </div>
+    </tr><tr>
+       <div class="form-group">
+          <td>   <label for="selectUserRole">UserRole</label><br></td>
+          <td>  <select name="userRole">
+          <option value = "fse">Admin</option>
+          <option value = "mse">Accountant</option>
+          <option value = "developer">Human Resource</option>
+        </select></td>
+      </div>
+    </tr><tr>
+      <div class="form-group">
+          <td>  <label for="inputuserMobile">Mobile Number</label></td>
+            <td>   <input type="text" class="form-control" id="inputuserMobile" [(ngModel)]="user.userMobile" name="userMobile" aria-describedby="userMobileHelp" placeholder="Enter Mobile Number" required minlength="10" #userMobile="ngModel"></td>
+        <small *ngIf="userMobile?.touched && userMobile.errors?.required" class="validation-error">Mobile Number is Required</small>
+        <small *ngIf="userMobile?.touched && userMobile.errors?.minlength" class="validation-error">Mobile Number must be minimum 10 digits</small>
+      </div>
+    </tr>
+    <tr>
+      <td><button type="submit" class="btn btn-primary" >register</button></td>
+    </tr>  
+      
+    </table>
+  </form>
+      <div class="backlogin-css">
+        <a href="http://localhost:4200/login"><button mat-button class="btn btn-primary" >Go Back To Login</button></a>
+        <h6 class="error-message" style="color: red" >{{submitMessage}}</h6>
+      </div>
+    
+</div>

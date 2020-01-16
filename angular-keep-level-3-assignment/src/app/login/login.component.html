@@ -1,0 +1,41 @@
+<div class="keep-login-container">
+        <mat-card class="center" style="border:  solid whitesmoke;
+        box-shadow: 10px 10px 50px grey;
+        border-radius: 2%;">
+    <strong *ngIf="submitMessage" class="error-message">{{submitMessage}}</strong>
+    <form class="login-form" [formGroup]="loginForm" (ngSubmit)="loginSubmit()">
+    <div class="login-form">
+        <mat-form-field>
+            <input matInput placeholder="Enter userId" formControlName="userId" class="userId">
+        </mat-form-field>
+
+        <mat-error *ngIf="loginForm.get('userId').dirty && loginForm.get('userId').hasError('required')">
+            userId is required field !!!
+        </mat-error>
+
+        <mat-error *ngIf="loginForm.get('userId').dirty && loginForm.get('userId').hasError('minlength')">
+            userId must be of 3 characters !!!
+        </mat-error>
+
+        <mat-form-field>
+            <input matInput placeholder="Enter userPassword" type="password" formControlName="userPassword" class="userPassword">
+        </mat-form-field>
+
+        <mat-error *ngIf="loginForm.get('userPassword').dirty && loginForm.get('userPassword').hasError('required')">
+            userPassword is required field !!!
+        </mat-error>
+
+        <mat-error *ngIf="loginForm.get('userPassword').dirty && loginForm.get('userPassword').hasError('minlength')">
+            userPassword must be of 3 characters !!!
+        </mat-error>
+
+        <div class="center-button">
+        <button type="submit" mat-button>Submit</button> 
+        <button mat-button class="button-css" (click) = "routeToRegister()">Register</button>
+        </div>
+    </div>
+
+</form>
+        </mat-card>
+</div>
+

@@ -1,0 +1,416 @@
+2020-01-09 04:06:42 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.keepnote.test.log.LoggerTest], using SpringBootContextLoader
+2020-01-09 04:06:42 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.keepnote.test.log.LoggerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-09 04:06:42 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.keepnote.test.log.LoggerTest]: LoggerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-09 04:06:42 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.keepnote.UserServiceApplication for test class com.stackroute.keepnote.test.log.LoggerTest
+2020-01-09 04:06:42 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1fb700ee, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4f67eb2a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4a668b6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5f683daf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@78ffe6dc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@8317c52, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@76f2bbc1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68e965f5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f27a732, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c779568, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@f381794, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2cdd0d4b]
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.keepnote.test.repository.UserRepositoryTest], using SpringBootContextLoader
+2020-01-09 04:06:43 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.keepnote.test.repository.UserRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-09 04:06:43 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.keepnote.test.repository.UserRepositoryTest]: UserRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.keepnote.UserServiceApplication for test class com.stackroute.keepnote.test.repository.UserRepositoryTest
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1613674b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27ff5d15, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e096385, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@649bec2e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@693fe6c9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@34f5090e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31e5415e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a2431d0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1cbb87f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a4013, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b6e1eff, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@306f16f3]
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.keepnote.test.controller.UserControllerTest], using SpringBootContextLoader
+2020-01-09 04:06:43 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+				Could not detect default resource locations for test class [com.stackroute.keepnote.test.controller.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-01-09 04:06:43 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.stackroute.keepnote.test.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.stackroute.keepnote.UserServiceApplication for test class com.stackroute.keepnote.test.controller.UserControllerTest
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-01-09 04:06:43 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@611889f4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1da2cb77, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48f278eb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2f217633, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a530d0a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1a18644, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5acf93bb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e7be63f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6cd28fa7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@614ca7df, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4738a206, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@66d3eec0]
+2020-01-09 04:06:44 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-80-91 with PID 3767 (started by ubuntu in /home/ubuntu/Desktop/Began/Spring_Workspace/KeepNote-Step6-Boilerplate/UserService)
+2020-01-09 04:06:44 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 04:06:44 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 04:06:44 [main] INFO  o.s.w.c.s.GenericWebApplicationContext -
+				Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6fff253c: startup date [Thu Jan 09 04:06:44 UTC 2020]; root of context hierarchy
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				note: noprealloc may hurt performance in many applications
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten] MongoDB starting : pid=3799 port=36271 dbpath=/tmp/embedmongo-db-e7c36f6a-8ea4-41cb-aad7-edd6a91a7133 64-bit host=ip-172-31-80-91
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten] db version v3.2.2
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten] modules: none
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten] build environment:
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.347+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 36271 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-e7c36f6a-8ea4-41cb-aad7-edd6a91a7133", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.372+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.449+0000 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.449+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-e7c36f6a-8ea4-41cb-aad7-edd6a91a7133/diagnostic.data'
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.450+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2020-01-09 04:06:49 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:49.475+0000 I NETWORK  [initandlisten] waiting for connections on port 36271
+2020-01-09 04:06:49 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@53ce2392
+2020-01-09 04:06:49 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:36271], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-09 04:06:49 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:36271 to client view of cluster
+2020-01-09 04:06:50 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:50.068+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:37344 #1 (1 connection now open)
+2020-01-09 04:06:50 [cluster-ClusterId{value='5e16a6d924cf0b0eb7b80665', description='null'}-localhost:36271] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:36271
+2020-01-09 04:06:50 [cluster-ClusterId{value='5e16a6d924cf0b0eb7b80665', description='null'}-localhost:36271] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:36271, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13384764}
+2020-01-09 04:06:50 [cluster-ClusterId{value='5e16a6d924cf0b0eb7b80665', description='null'}-localhost:36271] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-09 04:06:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-09 04:06:51 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+				Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-01-09 04:06:52 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:06:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6fff253c: startup date [Thu Jan 09 04:06:44 UTC 2020]; root of context hierarchy
+2020-01-09 04:06:52 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:06:52 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:06:53 [main] INFO  o.s.c.s.DefaultLifecycleProcessor -
+				Starting beans in phase 2147483647
+2020-01-09 04:06:53 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Context refreshed
+2020-01-09 04:06:53 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper -
+				Found 1 custom documentation plugin(s)
+2020-01-09 04:06:53 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner -
+				Scanning for api listing references
+2020-01-09 04:06:54 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 9.887 seconds (JVM running for 12.861)
+2020-01-09 04:06:54 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				Starting UserRepositoryTest on ip-172-31-80-91 with PID 3767 (started by ubuntu in /home/ubuntu/Desktop/Began/Spring_Workspace/KeepNote-Step6-Boilerplate/UserService)
+2020-01-09 04:06:54 [main] DEBUG c.s.k.t.r.UserRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 04:06:54 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 04:06:54 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@14590fe2: startup date [Thu Jan 09 04:06:54 UTC 2020]; root of context hierarchy
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				note: noprealloc may hurt performance in many applications
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten] MongoDB starting : pid=3828 port=35585 dbpath=/tmp/embedmongo-db-71e7efa2-58f8-40b7-8de0-42a59b6b1992 64-bit host=ip-172-31-80-91
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten] db version v3.2.2
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten] modules: none
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten] build environment:
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.460+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 35585 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-71e7efa2-58f8-40b7-8de0-42a59b6b1992", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.489+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.565+0000 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.571+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-71e7efa2-58f8-40b7-8de0-42a59b6b1992/diagnostic.data'
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.581+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.596+0000 I NETWORK  [initandlisten] waiting for connections on port 35585
+2020-01-09 04:06:54 [main] INFO  d.f.embed.process.runtime.Executable -
+				start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@43ab9ae9
+2020-01-09 04:06:54 [main] INFO  org.mongodb.driver.cluster -
+				Cluster created with settings {hosts=[localhost:35585], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-01-09 04:06:54 [main] INFO  org.mongodb.driver.cluster -
+				Adding discovered server localhost:35585 to client view of cluster
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.602+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:37492 #1 (1 connection now open)
+2020-01-09 04:06:54 [cluster-ClusterId{value='5e16a6de24cf0b0eb7b80666', description='null'}-localhost:35585] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:35585
+2020-01-09 04:06:54 [cluster-ClusterId{value='5e16a6de24cf0b0eb7b80666', description='null'}-localhost:35585] INFO  org.mongodb.driver.cluster -
+				Monitor thread successfully connected to server with description ServerDescription{address=localhost:35585, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=776225}
+2020-01-09 04:06:54 [cluster-ClusterId{value='5e16a6de24cf0b0eb7b80666', description='null'}-localhost:35585] INFO  org.mongodb.driver.cluster -
+				Discovered cluster type of STANDALONE
+2020-01-09 04:06:54 [main] INFO  c.s.k.t.r.UserRepositoryTest -
+				Started UserRepositoryTest in 0.565 seconds (JVM running for 13.473)
+2020-01-09 04:06:54 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:54.771+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:37494 #2 (2 connections now open)
+2020-01-09 04:06:54 [main] INFO  org.mongodb.driver.connection -
+				Opened connection [connectionId{localValue:3, serverValue:2}] to localhost:35585
+2020-01-09 04:06:55 [main] INFO  c.s.k.t.c.UserControllerTest -
+				Starting UserControllerTest on ip-172-31-80-91 with PID 3767 (started by ubuntu in /home/ubuntu/Desktop/Began/Spring_Workspace/KeepNote-Step6-Boilerplate/UserService)
+2020-01-09 04:06:55 [main] DEBUG c.s.k.t.c.UserControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2020-01-09 04:06:55 [main] INFO  c.s.k.t.c.UserControllerTest -
+				No active profile set, falling back to default profiles: default
+2020-01-09 04:06:55 [main] INFO  o.s.w.c.s.GenericWebApplicationContext -
+				Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1e6cb932: startup date [Thu Jan 09 04:06:55 UTC 2020]; root of context hierarchy
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1e6cb932: startup date [Thu Jan 09 04:06:55 UTC 2020]; root of context hierarchy
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -
+				Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-09 04:06:55 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 11 ms
+2020-01-09 04:06:55 [main] INFO  c.s.k.t.c.UserControllerTest -
+				Started UserControllerTest in 0.698 seconds (JVM running for 14.437)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@141b011a
+2020-01-09 04:06:55 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2f166d61
+2020-01-09 04:06:55 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@7544260a
+2020-01-09 04:06:55 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@1e194966
+2020-01-09 04:06:55 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@3c3cd13a
+2020-01-09 04:06:55 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 1 ms
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@cfacf0
+2020-01-09 04:06:56 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:56 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:56 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@470135da
+2020-01-09 04:06:56 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:56 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:56 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 3 ms
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.getByUserId(java.lang.String)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.registerUser(com.stackroute.keepnote.model.User)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.updateUser(java.lang.String,com.stackroute.keepnote.model.User)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Mapped "{[/api/v1/user/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> com.stackroute.keepnote.controller.UserController.deleteUser(java.lang.String,javax.servlet.http.HttpSession)
+2020-01-09 04:06:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@878feb2
+2020-01-09 04:06:56 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring FrameworkServlet ''
+2020-01-09 04:06:56 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization started
+2020-01-09 04:06:56 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				FrameworkServlet '': initialization completed in 0 ms
+2020-01-09 04:06:56 [Thread-10] INFO  o.s.c.a.AnnotationConfigApplicationContext -
+				Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@14590fe2: startup date [Thu Jan 09 04:06:54 UTC 2020]; root of context hierarchy
+2020-01-09 04:06:56 [Thread-5] INFO  o.s.w.c.s.GenericWebApplicationContext -
+				Closing org.springframework.web.context.support.GenericWebApplicationContext@6fff253c: startup date [Thu Jan 09 04:06:44 UTC 2020]; root of context hierarchy
+2020-01-09 04:06:56 [Thread-12] INFO  o.s.w.c.s.GenericWebApplicationContext -
+				Closing org.springframework.web.context.support.GenericWebApplicationContext@1e6cb932: startup date [Thu Jan 09 04:06:55 UTC 2020]; root of context hierarchy
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.187+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:37352 #2 (2 connections now open)
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.187+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:37498 #3 (3 connections now open)
+2020-01-09 04:06:56 [Thread-10] INFO  org.mongodb.driver.connection -
+				Closed connection [connectionId{localValue:3, serverValue:2}] to localhost:35585 because the pool has been closed.
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.191+0000 I COMMAND  [conn2] terminating, shutdown command received
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.192+0000 I FTDC     [conn2] Shutting down full-time diagnostic data capture
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.191+0000 I NETWORK  [conn2] end connection 127.0.0.1:37494 (2 connections now open)
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.191+0000 I COMMAND  [conn3] terminating, shutdown command received
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.191+0000 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.192+0000 I NETWORK  [conn1] end connection 127.0.0.1:37492 (1 connection now open)
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.193+0000 I CONTROL  [conn2] now exiting
+2020-01-09 04:06:56 [Thread-5] INFO  o.s.c.s.DefaultLifecycleProcessor -
+				Stopping beans in phase 2147483647
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.199+0000 I CONTROL  [conn3] now exiting
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.199+0000 I NETWORK  [conn3] shutdown: going to close listening sockets...
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.199+0000 I NETWORK  [conn3] closing listening socket: 5
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.199+0000 I NETWORK  [conn3] closing listening socket: 6
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.200+0000 I NETWORK  [conn3] removing socket file: /tmp/mongodb-35585.sock
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.200+0000 I NETWORK  [conn3] shutdown: going to flush diaglog...
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.198+0000 I NETWORK  [conn1] end connection 127.0.0.1:37344 (1 connection now open)
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.200+0000 I NETWORK  [conn3] shutdown: going to close sockets...
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.200+0000 I NETWORK  [conn2] shutdown: going to close listening sockets...
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.200+0000 I NETWORK  [conn2] closing listening socket: 5
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.200+0000 I NETWORK  [conn2] closing listening socket: 6
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.200+0000 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.200+0000 I NETWORK  [conn2] removing socket file: /tmp/mongodb-36271.sock
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.201+0000 I NETWORK  [conn2] shutdown: going to flush diaglog...
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.201+0000 I NETWORK  [conn2] shutdown: going to close sockets...
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.201+0000 I STORAGE  [conn2] WiredTigerKVEngine shutting down
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.222+0000 I STORAGE  [conn3] shutdown: removing fs lock...
+2020-01-09 04:06:56 [Thread-8] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.222+0000 I CONTROL  [conn3] dbexit:  rc: 0
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.222+0000 I STORAGE  [conn2] shutdown: removing fs lock...
+2020-01-09 04:06:56 [Thread-3] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo -
+				2020-01-09T04:06:56.222+0000 I CONTROL  [conn2] dbexit:  rc: 0
